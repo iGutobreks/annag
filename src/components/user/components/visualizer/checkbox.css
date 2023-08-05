@@ -1,0 +1,11 @@
+.checkbox {
+	width: 32px;
+	height: 32px;
+	border-radius: 6px;
+	background-color: rgb(24, 24, 27);
+	cursor: pointer;
+}
+
+.checkbox-active {
+	background-color: rgb(101, 163, 13);
+}
