@@ -1,6 +1,6 @@
 # Anna
 
-Anna is a minecraft cheat using [aob-rs]("https://github.com/iGutobreks/aob-rs"). I have created it for education, please dont worry.
+Anna is a minecraft cheat using [aob-rs](https://github.com/iGutobreks/aob-rs). I have created it for education, please dont worry.
 ## Updates
 
 This is an update of [Anna](https://github.com/iGutobreks/Anna). Fixed some bugs and created a cool ui.
@@ -39,6 +39,7 @@ This is an update of [Anna](https://github.com/iGutobreks/Anna). Fixed some bugs
 #### Where i can get help with cheat or source code?
 
 If your question is cool, contact me on discord gut.rs, I will help you.
+(if you want to deploy source code, before do npm install)
 
 #### You will continue with this cheat in future?
 
@@ -47,7 +48,6 @@ No. I dont want to continue with this. Because my initial idea for make this, is
 #### I can contact you for private projects?
 
 Yes, you can.
-
 
 ## 😁
 
