@@ -201,7 +201,7 @@ export function View_pageTwo() {
 export function View_pageThree() {
 	return (
 		<div className="w-96 h-96">
-			<h1 className="text-3xl">credits: <a href="#">github</a></h1>
+			<h1 className="text-3xl">credits: <a href="https://github.com/igutobreks/">github</a></h1>
 		</div>
 	);
 }
