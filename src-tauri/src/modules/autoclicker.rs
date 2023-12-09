@@ -15,6 +15,12 @@ pub fn enable_autoclicker(cps: f32, title: String, enable: bool) {
 	let window = CString::new(title).unwrap();
 	std::thread::spawn(move || {
 		let h_wnd = unsafe {FindWindowA(null(), window.as_ptr())};
+	
+		if h_wnd == 0 {
+			eprintln!("cant resume this title");
+			break;
+		}
+	
 		loop {
 			if unsafe {ENABLE} {
 				if (unsafe {GetAsyncKeyState(VK_LBUTTON) as u16 & 0x8000} )!= 0 {
