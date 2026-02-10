@@ -1,3 +1,5 @@
+// compressible slider history, value and context.
+
 import { ReactElement, useState } from "react";
 import { ReturnData, Slider } from "../../Slider.js";
 import { C_ReturnData, Checkbox } from "../../Checkbox.js";
